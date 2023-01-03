@@ -12,19 +12,19 @@ Discord 2.0 with REACT.JS! (Next.js, NextAuth.js v4.17.0, Tailwind CSS, Typescri
 
 <a href="https://clone-sproject.vercel.app" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
-![](https://img.shields.io/github/forks/SashenJayathilaka/Discord-Clone.svg)
-![](https://img.shields.io/github/stars/SashenJayathilaka/Discord-Clone.svg)
-![](https://img.shields.io/github/issues/SashenJayathilaka/Discord-Clone)
-![](https://img.shields.io/github/last-commit/SashenJayathilaka/Discord-Clone)
+![](https://img.shields.io/github/forks/arashlabafian/Discord-Clone.svg)
+![](https://img.shields.io/github/stars/arashlabafian/Discord-Clone.svg)
+![](https://img.shields.io/github/issues/arashlabafian/Discord-Clone)
+![](https://img.shields.io/github/last-commit/arashlabafian/Discord-Clone)
 
 <h4>
     <a href="https://projects-seven-peach.vercel.app">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Discord-Clone/blob/master/README.md">Documentation</a>
+    <a href="https://github.com/arashlabafian/Discord-Clone/blob/master/README.md">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Discord-Clone/issues">Report Bug</a>
+    <a href="https://github.com/arashlabafian/Discord-Clone/issues">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Discord-Clone/issues">Request Feature</a>
+    <a href="https://github.com/arashlabafian/Discord-Clone/issues">Request Feature</a>
   </h4>
 </div>
 
@@ -34,16 +34,24 @@ Discord 2.0 with REACT.JS! (Next.js, NextAuth.js v4.17.0, Tailwind CSS, Typescri
 
 ## :notebook_with_decorative_cover: Table of Contents
 
-- [About the Project](#star2-about-the-project)
-  - [Screenshots](#camera-screenshots)
-  - [Tech Stack](#space_invader-tech-stack)
-  - [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
-  - [Prerequisites](#bangbang-prerequisites)
-  - [Installation](#gear-installation)
-  - [Run Locally](#running-run-locally)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [Contact](#handshake-contact)
+- [:notebook\_with\_decorative\_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
+- [:star2: About the Project](#star2-about-the-project)
+  - [:camera: Screenshots](#camera-screenshots)
+- [LIVE DEMO 💥](#live-demo-)
+  - [:space\_invader: Tech Stack](#space_invader-tech-stack)
+- [:toolbox: Getting Started](#toolbox-getting-started)
+  - [:bangbang: Prerequisites](#bangbang-prerequisites)
+  - [:key: Environment Variables](#key-environment-variables)
+  - [:gear: Installation](#gear-installation)
+  - [:test\_tube: Install Tailwind CSS with Next.js](#test_tube-install-tailwind-css-with-nextjs)
+    - [Install Tailwind CSS](#install-tailwind-css)
+    - [Configure your template paths](#configure-your-template-paths)
+    - [Add the Tailwind directives to your CSS](#add-the-tailwind-directives-to-your-css)
+  - [:running: Run Locally](#running-run-locally)
+- [Getting Started](#getting-started)
+  - [Learn More](#learn-more)
+  - [:triangular\_flag\_on\_post: Deployment](#triangular_flag_on_post-deployment)
+      - [Deploy on Vercel](#deploy-on-vercel)
 
 <!-- About the Project -->
 
@@ -183,24 +191,21 @@ npx tailwindcss init -p
 Add the paths to all of your template files in your `tailwind.config.js` file.
 <br>
 
-```
+```js
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
 ```
 
 #### Add the Tailwind directives to your CSS
 
 Add the `@tailwind` directives for each of Tailwind’s layers to your `./styles/globals.css` file.
 
-```
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -208,7 +213,7 @@ Add the `@tailwind` directives for each of Tailwind’s layers to your `./styles
 
 Install dependencies
 
-<a href="https://github.com/SashenJayathilaka/Discord-Clone/blob/master/package.json" target="_blank">🔶 Other Dependency Info</a>
+<a href="https://github.com/arashlabafian/Discord-Clone/blob/master/package.json" target="_blank">🔶 Other Dependency Info</a>
 
 <!-- Run Locally -->
 
@@ -219,7 +224,7 @@ Install dependencies
 Clone the project
 
 ```bash
-  git clone https://github.com/SashenJayathilaka/Discord-Clone.git
+  git clone https://github.com/arashlabafian/Discord-Clone.git
 ```
 
 change directory
@@ -273,12 +278,6 @@ To deploy this project run
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## :handshake: Contact
-
-Your Name - [@twitter_handle](https://twitter.com/SashenHasinduJ) - sashenjayathilaka95@gmail.com
-
-Project Link: [https://github.com/SashenJayathilaka/Discord-Clone.git]()
 
 <hr />
 
